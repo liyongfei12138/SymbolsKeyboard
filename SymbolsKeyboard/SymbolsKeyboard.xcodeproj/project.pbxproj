@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B96115EC97F4108C25E0F8A9 /* libPods-SymbolsKeyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B5C0A5538AA72141FB5051 /* libPods-SymbolsKeyboard.a */; };
+		D83FACB1205E76ED00893914 /* FacesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FACB0205E76ED00893914 /* FacesManager.m */; };
+		D83FACB4205E77CE00893914 /* FaceKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FACB3205E77CE00893914 /* FaceKeyBoardView.m */; };
+		D83FACB7205E7C3700893914 /* XQGTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FACB6205E7C3700893914 /* XQGTextView.m */; };
+		D83FACBB205E844D00893914 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D83FACB9205E844C00893914 /* MainViewController.m */; };
+		D83FACBC205E844D00893914 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D83FACBA205E844C00893914 /* MainViewController.xib */; };
+		D83FACC2205E87F800893914 /* bq_pz.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FACBE205E87F800893914 /* bq_pz.png */; };
+		D83FACC3205E87F800893914 /* bq_se.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FACBF205E87F800893914 /* bq_se.png */; };
+		D83FACC4205E87F800893914 /* bq_fd.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FACC0205E87F800893914 /* bq_fd.png */; };
+		D83FACC5205E87F800893914 /* bq_wx.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FACC1205E87F800893914 /* bq_wx.png */; };
+		D8AF591D205BA00F00BA5092 /* CarmerImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF591B205BA00F00BA5092 /* CarmerImageCollectionViewCell.m */; };
+		D8AF591E205BA00F00BA5092 /* CarmerImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AF591C205BA00F00BA5092 /* CarmerImageCollectionViewCell.xib */; };
+		D8AF5922205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5920205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.m */; };
+		D8AF5923205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8AF5921205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.xib */; };
+		D8AF5927205BC51900BA5092 /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5924205BC51800BA5092 /* ZYQAssetPickerController.m */; };
+		D8AF5928205BC51900BA5092 /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8AF5925205BC51800BA5092 /* ZYQAssetPicker.Bundle */; };
 		D8F70C65205A697D00A47B39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70C64205A697D00A47B39 /* AppDelegate.m */; };
 		D8F70C68205A697D00A47B39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70C67205A697D00A47B39 /* ViewController.m */; };
 		D8F70C6B205A697D00A47B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8F70C69205A697D00A47B39 /* Main.storyboard */; };
@@ -15,6 +31,8 @@
 		D8F70C73205A697D00A47B39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70C72205A697D00A47B39 /* main.m */; };
 		D8F70C7D205A697D00A47B39 /* SymbolsKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70C7C205A697D00A47B39 /* SymbolsKeyboardTests.m */; };
 		D8F70C88205A697D00A47B39 /* SymbolsKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70C87205A697D00A47B39 /* SymbolsKeyboardUITests.m */; };
+		D8F70C96205A6F8D00A47B39 /* emoticons.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8F70C95205A6F8D00A47B39 /* emoticons.plist */; };
+		D8F70CAD205AB1E000A47B39 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F70CAB205AB1DF00A47B39 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BD05D7668D6705C4D56CD6 /* Pods-SymbolsKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymbolsKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-SymbolsKeyboard/Pods-SymbolsKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		6ECB9CABEA2D333103F4E153 /* Pods-SymbolsKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymbolsKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SymbolsKeyboard/Pods-SymbolsKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		78B5C0A5538AA72141FB5051 /* libPods-SymbolsKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SymbolsKeyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D83FACAF205E76ED00893914 /* FacesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacesManager.h; sourceTree = "<group>"; };
+		D83FACB0205E76ED00893914 /* FacesManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacesManager.m; sourceTree = "<group>"; };
+		D83FACB2205E77CE00893914 /* FaceKeyBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceKeyBoardView.h; sourceTree = "<group>"; };
+		D83FACB3205E77CE00893914 /* FaceKeyBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceKeyBoardView.m; sourceTree = "<group>"; };
+		D83FACB5205E7C3700893914 /* XQGTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQGTextView.h; sourceTree = "<group>"; };
+		D83FACB6205E7C3700893914 /* XQGTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQGTextView.m; sourceTree = "<group>"; };
+		D83FACB8205E844C00893914 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D83FACB9205E844C00893914 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D83FACBA205E844C00893914 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D83FACBE205E87F800893914 /* bq_pz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bq_pz.png; sourceTree = "<group>"; };
+		D83FACBF205E87F800893914 /* bq_se.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bq_se.png; sourceTree = "<group>"; };
+		D83FACC0205E87F800893914 /* bq_fd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bq_fd.png; sourceTree = "<group>"; };
+		D83FACC1205E87F800893914 /* bq_wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bq_wx.png; sourceTree = "<group>"; };
+		D8AF591A205BA00F00BA5092 /* CarmerImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarmerImageCollectionViewCell.h; sourceTree = "<group>"; };
+		D8AF591B205BA00F00BA5092 /* CarmerImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarmerImageCollectionViewCell.m; sourceTree = "<group>"; };
+		D8AF591C205BA00F00BA5092 /* CarmerImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarmerImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		D8AF591F205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarmerADDImageCollectionViewCell.h; sourceTree = "<group>"; };
+		D8AF5920205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarmerADDImageCollectionViewCell.m; sourceTree = "<group>"; };
+		D8AF5921205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarmerADDImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		D8AF5924205BC51800BA5092 /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		D8AF5925205BC51800BA5092 /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		D8AF5926205BC51800BA5092 /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
 		D8F70C60205A697D00A47B39 /* SymbolsKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolsKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F70C63205A697D00A47B39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8F70C64205A697D00A47B39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +94,9 @@
 		D8F70C83205A697D00A47B39 /* SymbolsKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymbolsKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F70C87205A697D00A47B39 /* SymbolsKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymbolsKeyboardUITests.m; sourceTree = "<group>"; };
 		D8F70C89205A697D00A47B39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8F70C95205A6F8D00A47B39 /* emoticons.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = emoticons.plist; sourceTree = "<group>"; };
+		D8F70CAB205AB1DF00A47B39 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		D8F70CAC205AB1E000A47B39 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96115EC97F4108C25E0F8A9 /* libPods-SymbolsKeyboard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E0D32A69C84929DE248B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ECB9CABEA2D333103F4E153 /* Pods-SymbolsKeyboard.debug.xcconfig */,
+				18BD05D7668D6705C4D56CD6 /* Pods-SymbolsKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D17B40F8B503E42A9CFF852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78B5C0A5538AA72141FB5051 /* libPods-SymbolsKeyboard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D83FACAE205E76A700893914 /* EmjoyField */ = {
+			isa = PBXGroup;
+			children = (
+				D83FACBD205E87F800893914 /* Face */,
+				D83FACAF205E76ED00893914 /* FacesManager.h */,
+				D83FACB0205E76ED00893914 /* FacesManager.m */,
+				D83FACB2205E77CE00893914 /* FaceKeyBoardView.h */,
+				D83FACB3205E77CE00893914 /* FaceKeyBoardView.m */,
+				D83FACB5205E7C3700893914 /* XQGTextView.h */,
+				D83FACB6205E7C3700893914 /* XQGTextView.m */,
+				D83FACB8205E844C00893914 /* MainViewController.h */,
+				D83FACB9205E844C00893914 /* MainViewController.m */,
+				D83FACBA205E844C00893914 /* MainViewController.xib */,
+			);
+			path = EmjoyField;
+			sourceTree = "<group>";
+		};
+		D83FACBD205E87F800893914 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				D83FACBE205E87F800893914 /* bq_pz.png */,
+				D83FACBF205E87F800893914 /* bq_se.png */,
+				D83FACC0205E87F800893914 /* bq_fd.png */,
+				D83FACC1205E87F800893914 /* bq_wx.png */,
+			);
+			name = Face;
+			path = SymbolsKeyboard/Face;
+			sourceTree = SOURCE_ROOT;
+		};
+		D8AF5929205BC52000BA5092 /* ChoicePic */ = {
+			isa = PBXGroup;
+			children = (
+				D8AF5925205BC51800BA5092 /* ZYQAssetPicker.Bundle */,
+				D8AF5926205BC51800BA5092 /* ZYQAssetPickerController.h */,
+				D8AF5924205BC51800BA5092 /* ZYQAssetPickerController.m */,
+			);
+			path = ChoicePic;
+			sourceTree = "<group>";
+		};
 		D8F70C57205A697D00A47B39 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +188,8 @@
 				D8F70C7B205A697D00A47B39 /* SymbolsKeyboardTests */,
 				D8F70C86205A697D00A47B39 /* SymbolsKeyboardUITests */,
 				D8F70C61205A697D00A47B39 /* Products */,
+				32E0D32A69C84929DE248B3B /* Pods */,
+				5D17B40F8B503E42A9CFF852 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +206,24 @@
 		D8F70C62205A697D00A47B39 /* SymbolsKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				D8F70CAC205AB1E000A47B39 /* UIView+Frame.h */,
+				D8F70CAB205AB1DF00A47B39 /* UIView+Frame.m */,
+				D83FACAE205E76A700893914 /* EmjoyField */,
+				D8AF5929205BC52000BA5092 /* ChoicePic */,
 				D8F70C63205A697D00A47B39 /* AppDelegate.h */,
 				D8F70C64205A697D00A47B39 /* AppDelegate.m */,
 				D8F70C66205A697D00A47B39 /* ViewController.h */,
 				D8F70C67205A697D00A47B39 /* ViewController.m */,
+				D8AF591A205BA00F00BA5092 /* CarmerImageCollectionViewCell.h */,
+				D8AF591B205BA00F00BA5092 /* CarmerImageCollectionViewCell.m */,
+				D8AF591C205BA00F00BA5092 /* CarmerImageCollectionViewCell.xib */,
+				D8AF591F205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.h */,
+				D8AF5920205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.m */,
+				D8AF5921205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.xib */,
 				D8F70C69205A697D00A47B39 /* Main.storyboard */,
 				D8F70C6C205A697D00A47B39 /* Assets.xcassets */,
 				D8F70C6E205A697D00A47B39 /* LaunchScreen.storyboard */,
+				D8F70C95205A6F8D00A47B39 /* emoticons.plist */,
 				D8F70C71205A697D00A47B39 /* Info.plist */,
 				D8F70C72205A697D00A47B39 /* main.m */,
 			);
@@ -139,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8F70C8C205A697D00A47B39 /* Build configuration list for PBXNativeTarget "SymbolsKeyboard" */;
 			buildPhases = (
+				8B78B56143AAA08A8FE1AB68 /* [CP] Check Pods Manifest.lock */,
 				D8F70C5C205A697D00A47B39 /* Sources */,
 				D8F70C5D205A697D00A47B39 /* Frameworks */,
 				D8F70C5E205A697D00A47B39 /* Resources */,
+				3C061353E0497B123F761C4A /* [CP] Embed Pods Frameworks */,
+				FB8984AEF9205DDF65D6642E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +357,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F70C96205A6F8D00A47B39 /* emoticons.plist in Resources */,
 				D8F70C70205A697D00A47B39 /* LaunchScreen.storyboard in Resources */,
+				D83FACC2205E87F800893914 /* bq_pz.png in Resources */,
+				D8AF5923205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.xib in Resources */,
 				D8F70C6D205A697D00A47B39 /* Assets.xcassets in Resources */,
+				D83FACC5205E87F800893914 /* bq_wx.png in Resources */,
+				D83FACC4205E87F800893914 /* bq_fd.png in Resources */,
+				D8AF591E205BA00F00BA5092 /* CarmerImageCollectionViewCell.xib in Resources */,
+				D83FACC3205E87F800893914 /* bq_se.png in Resources */,
+				D83FACBC205E844D00893914 /* MainViewController.xib in Resources */,
+				D8AF5928205BC51900BA5092 /* ZYQAssetPicker.Bundle in Resources */,
 				D8F70C6B205A697D00A47B39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +388,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C061353E0497B123F761C4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SymbolsKeyboard/Pods-SymbolsKeyboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B78B56143AAA08A8FE1AB68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SymbolsKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8984AEF9205DDF65D6642E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SymbolsKeyboard/Pods-SymbolsKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D8F70C5C205A697D00A47B39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83FACBB205E844D00893914 /* MainViewController.m in Sources */,
+				D83FACB7205E7C3700893914 /* XQGTextView.m in Sources */,
+				D8AF5927205BC51900BA5092 /* ZYQAssetPickerController.m in Sources */,
+				D8F70CAD205AB1E000A47B39 /* UIView+Frame.m in Sources */,
+				D8AF591D205BA00F00BA5092 /* CarmerImageCollectionViewCell.m in Sources */,
+				D8AF5922205BB4FA00BA5092 /* CarmerADDImageCollectionViewCell.m in Sources */,
 				D8F70C68205A697D00A47B39 /* ViewController.m in Sources */,
 				D8F70C73205A697D00A47B39 /* main.m in Sources */,
+				D83FACB1205E76ED00893914 /* FacesManager.m in Sources */,
 				D8F70C65205A697D00A47B39 /* AppDelegate.m in Sources */,
+				D83FACB4205E77CE00893914 /* FaceKeyBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +615,7 @@
 		};
 		D8F70C8D205A697D00A47B39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ECB9CABEA2D333103F4E153 /* Pods-SymbolsKeyboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +630,7 @@
 		};
 		D8F70C8E205A697D00A47B39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BD05D7668D6705C4D56CD6 /* Pods-SymbolsKeyboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

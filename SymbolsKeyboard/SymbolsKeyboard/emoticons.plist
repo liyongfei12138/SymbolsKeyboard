@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllFaces</key>
+	<array>
+		<dict>
+			<key>cht</key>
+			<string>[撇嘴]</string>
+			<key>png</key>
+			<string>bq_pz.png</string>
+			<key>chs</key>
+			<string>[撇嘴]</string>
+		</dict>
+		<dict>
+			<key>cht</key>
+			<string>[发呆]</string>
+			<key>png</key>
+			<string>bq_fd.png</string>
+			<key>chs</key>
+			<string>[发呆]</string>
+		</dict>
+		<dict>
+			<key>cht</key>
+			<string>[好色]</string>
+			<key>png</key>
+			<string>bq_se.png</string>
+			<key>chs</key>
+			<string>[好色]</string>
+		</dict>
+		<dict>
+			<key>cht</key>
+			<string>[微笑]</string>
+			<key>png</key>
+			<string>bq_wx.png</string>
+			<key>chs</key>
+			<string>[微笑]</string>
+		</dict>
+	</array>
+</dict>
+</plist>
